@@ -7,8 +7,8 @@ import {
 import Main from "../../Components/Main/Main";
 import Home from "../../Components/Home/Home/Home";
 import Random from "../../Components/Random/Random/Random";
-import Favorites from "../../Components/Favorites/Favorites/Favorites";
 import About from "../../Components/About/About/About";
+import Bookmark from "../../Components/Bookmark/Bookmark";
 
 
 export const router = createBrowserRouter([
@@ -26,8 +26,8 @@ export const router = createBrowserRouter([
                 element : <Random/>
              },
              {
-                path : "/favorites",
-                element : <Favorites/>
+                path : "/bookmark",
+                element : <Bookmark/>
              },
              {
                 path : "/about",
