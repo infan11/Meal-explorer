@@ -52,7 +52,7 @@ meal-explorer/
 ├── src/
 │   ├── Assets/
 │   │   └── images/
-│   │       └── Meal-Explorer.png  (Your logo image)
+│   │       └── Meal-Explorer.png  (https://i.ibb.co/7xXFbH6g/favicon-removebg-preview.png)
 │   ├── Components/
 │   │   ├── About/
 │   │   │   └── About.jsx
