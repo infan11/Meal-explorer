@@ -1,5 +1,5 @@
 
-Meal Explorer 🍔🔍
+Meal Explorer 
 
 [](https://tubular-sherbet-24947c.netlify.app/)
 [](https://github.com/infan11/Meal-explorer)
