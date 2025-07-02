@@ -17,7 +17,7 @@ const Navbar = () => {
         HOME
       </NavLink>
       <NavLink
-        to="/random"
+        to="/random" 
         className={({ isActive }) =>
           isActive
             ? "font-extrabold text-rose-500 border-b-2 border-rose-500 relative inline-block transition-colors duration-300 before:content-[''] before:absolute before:bottom-[-2px] before:left-0 before:w-full before:h-[2px] before:bg-rose-500 before:scale-100 before:transition-transform before:duration-300 hover:before:scale-100"
@@ -53,7 +53,7 @@ const Navbar = () => {
               {navbarLinks}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <Link to={"/"}><img className='w-12 rounded-full' src="https://i.ibb.co/C3sks2Nj/Meal-Explorer.png" alt="" /></Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-6">
